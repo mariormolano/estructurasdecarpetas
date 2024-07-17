@@ -4,37 +4,48 @@ Esta guía proporciona una estructura de carpetas recomendada para proyectos de 
 
 ## Estructura General
 
-proyecto/
-│
-├── frontend/
-│   ├── src/
-│   ├── public/
-│   ├── tests/
-│   └── README.md
-│
-├── backend/
-│   ├── src/
-│   ├── tests/
-│   └── README.md
-│
-├── docs/
-├── .gitignore
-└── README.md
+- proyecto/
+  - frontend/
+    - src/
+    - public/
+    - tests/
+    - README.md
+  - backend/
+    - src/
+    - tests/
+    - README.md
+  - docs/
+  - .gitignore
+  - README.md
 
 ## Estructura Front-end
 
-backend/
-│
-├── src/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── services/
-│   ├── utils/
-│   └── app.js
-│
-├── tests/
-└── README.md
+- frontend/
+  - src/
+    - components/
+    - pages/
+    - assets/
+    - styles/
+    - utils/
+    - App.js
+  - public/
+    - index.html
+    - favicon.ico
+  - tests/
+  - README.md
+
+## Estructura Back-end
+
+- backend/
+  - src/
+    - controllers/
+    - models/
+    - routes/
+    - services/
+    - utils/
+    - app.js
+  - tests/
+  - README.md
 
 
 ## Explicación de la Estructura
